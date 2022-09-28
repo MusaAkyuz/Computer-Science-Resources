@@ -1,0 +1,3 @@
+# Computer Science Encyclopedia
+## Turkish - English mixed
+Includes books, handnotes, chatsheet, presentations...
