@@ -1,4 +1,4 @@
-# Computer Science Encyclopedia
+# Computer Science Resources
 ## Turkish - English mixed
 Includes books, handnotes, chatsheet, presentations...
 
