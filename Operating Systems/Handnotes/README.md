@@ -46,3 +46,97 @@ Donanım -> İşletim sistemleri -> Uygulama programları -> Kullanıcıları
 		-Zamanlayıcı
 		-G/Ç (I/O)
 		-Donanım hatası
+
+# Week 2
+
+## İşletim sistemleri hizmetleri
+
+	### Kullanıcı Arayüzü 
+		Windowsta kullanıcı arayüzü gui olarak geçer,
+		Unix sistemlerde uygulama katmanında çalışan bir uygulamadır.
+		Grafik arayüzü (Graphical User Interface - GUI)
+		Komut arayüzü (Command Line Interface)
+		
+	### Koruma ve Güvenlik
+		Koruma -- Kullanıcı veya bir process bir kaynağı kullanmak istiyorsa, farklı bir kullanıcı veya process de o kaynağı kullanmak istiyorsa, işletim sistemi bunu korumalı düzenlemeli
+		Güvenlik -- Erişim ve izin kontrolü
+		
+	### Kaynak Yönetimi
+	
+	### Dosya Sistemi manipülasyonu
+	
+	### Programın yönetilmesi
+	
+	### Hata Tespiti
+	
+	### Kayıt tutma
+	
+## Süreçler (Process)
+
+	Süreçler arasında ata, çocuk ilişkisi vardır
+	Process , parent process, child process
+	Buna süreç ağacı deriz (Process tree)
+	Bütün çalışabilir programlar bir süreçtir
+	
+	INCELE 
+	COMMANDS
+	ipcs (Message Queues...)
+	users
+	adduser
+	addgroup
+	pwd
+
+## Adres Uzayları
+
+## Dosya Sistemi
+	Tüm dosyalar, cihazlar, kullanıcılar tek bir kök diininin altındadır
+	/ kök dizini
+	/bin komutların tutulduğu dizini
+	/etc konfigürasyonların tutulduğu dizin
+	/dev cihazların bulunnduğu dizindir
+	/home kullanıcıların ev dizinleridir, kullanıcılar bu dizinler içinde haklara sahiptirler
+	
+	Permissions
+	- - - - - - - - - - 
+ 	d r w x r w x r w x 
+	l r w x r w x r w x
+      r w x r w x r w x
+	  4 2 1 4 2 1 4 2 1
+	  
+	  
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
