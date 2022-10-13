@@ -34,3 +34,15 @@ Sınıf diyagarmları, nesen diyagramları, kalıtım, içerme, polimorphism, um
 		Alt sınıflar için bir taban oluşturur
 		Alt sınıfların ortak özellikleri ve metodları burada toplanır ama tanımlanmaz
 		Methodları boş bırakılır sadece prototipleri vardır
+		
+	### Erişim Düzenleyicileri
+		Public = + sembolü ile --- within the class, outside the class, within the package and outside the package.
+		Private = - sembolü ile --- only within the class
+		Protected = # sembolü ile --- within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+		Package = ~ sembolü ile ---  within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+		
+	### Java Değişkenleri
+		--- Instance variable (Nesne Değişkeni)
+		--- Class variable (Sınıf Değişkeni)
+		--- Local variable (Yerel Değişkeni)
+		
