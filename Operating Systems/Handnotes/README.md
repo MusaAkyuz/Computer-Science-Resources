@@ -125,13 +125,13 @@ Donanım -> İşletim sistemleri -> Uygulama programları -> Kullanıcıları
 		read();
 		
 ## Processler ile ilgili sistem cağrıları
-	|Unix|Windows|
-	|-----|----|
-	|fork();||
-	|waitpid();||
-	|exit(status);||
-	|execvev();||
-	|kill();||
+|Unix|Windows|
+|-----|----|
+|fork();||
+|waitpid();||
+|exit(status);||
+|execvev();||
+|kill();||
 	
 	fork() unix sistemlerde yeni bir süreç oluşturur
 	asıl sürecin birebir kopyasını oluşturur
