@@ -80,6 +80,7 @@ Donanım -> İşletim sistemleri -> Uygulama programları -> Kullanıcıları
 	
 	INCELE 
 	COMMANDS
+	ps -ax
 	ipcs (Message Queues...)
 	users
 	adduser
@@ -102,41 +103,37 @@ Donanım -> İşletim sistemleri -> Uygulama programları -> Kullanıcıları
 	l r w x r w x r w x
       r w x r w x r w x
 	  4 2 1 4 2 1 4 2 1
-	  
-	  
+
+# Week3
+
+## Sistem Çağrıları
+
+	İşletim istemi ile kullanıcı programları arasındaki tanımlı olan arayüzdür
+	İşletim sistemi tarafından tanımlanan bir prosedureler kümesidir.
 	
+	### Unix için C kütüphaneleri mevcut	
+		fctnl.h
+		sys/types.h
 	
+	### Veri tipleri
+		off_t
+		
+	### Sistem çağrıları
+		write();
+		creat();
+		open();
+		read();
+		
+## Processler ile ilgili sistem cağrıları
+	|Unix|Windows|
+	|-----|----|
+	|fork();||
+	|waitpid();||
+	|exit(status);||
+	|execvev();||
+	|kill();||
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+	fork() unix sistemlerde yeni bir süreç oluşturur
+	asıl sürecin birebir kopyasını oluşturur
+	kopyalama işleminden sonra ana süreç ve çocuk süreç birbirinden ayrılır
+	kullandıkları bilgiler kendine özgün olur
