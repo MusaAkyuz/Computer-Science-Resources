@@ -32,12 +32,12 @@ Donanım -> İşletim sistemleri -> Uygulama programları -> Kullanıcıları
 	Getir -> Çöz -> Yürüt -> Bellek -> Yaz
 	Fetch -> Decode -> Execute -> Memory -> Write
 	
-	### Komut kesme (Interrupt)
+### Komut kesme (Interrupt)
 		İşlemcinin normal yürütüm sırasını değiştirmek ve gereksinim duyulan başka bir iş varsa onu yerine getirmek için kesme programları kullanır
 		Bir komut işlenirken bir zaman diliminde kesilir ve araya farklı komut girer.
 		Zamandan tasaruf olmadan multitasking işlem yapılır.
 		
-	### Kesme türleri
+### Kesme türleri
 		-Program
 			Aritmatik taşma
 			Sıfıra bölme
@@ -51,25 +51,25 @@ Donanım -> İşletim sistemleri -> Uygulama programları -> Kullanıcıları
 
 ## İşletim sistemleri hizmetleri
 
-	### Kullanıcı Arayüzü 
+### Kullanıcı Arayüzü 
 		Windowsta kullanıcı arayüzü gui olarak geçer,
 		Unix sistemlerde uygulama katmanında çalışan bir uygulamadır.
 		Grafik arayüzü (Graphical User Interface - GUI)
 		Komut arayüzü (Command Line Interface)
 		
-	### Koruma ve Güvenlik
+### Koruma ve Güvenlik
 		Koruma -- Kullanıcı veya bir process bir kaynağı kullanmak istiyorsa, farklı bir kullanıcı veya process de o kaynağı kullanmak istiyorsa, işletim sistemi bunu korumalı düzenlemeli
 		Güvenlik -- Erişim ve izin kontrolü
 		
-	### Kaynak Yönetimi
+### Kaynak Yönetimi
 	
-	### Dosya Sistemi manipülasyonu
+### Dosya Sistemi manipülasyonu
 	
-	### Programın yönetilmesi
+### Programın yönetilmesi
 	
-	### Hata Tespiti
+### Hata Tespiti
 	
-	### Kayıt tutma
+### Kayıt tutma
 	
 ## Süreçler (Process)
 
@@ -111,14 +111,14 @@ Donanım -> İşletim sistemleri -> Uygulama programları -> Kullanıcıları
 	İşletim istemi ile kullanıcı programları arasındaki tanımlı olan arayüzdür
 	İşletim sistemi tarafından tanımlanan bir prosedureler kümesidir.
 	
-	### Unix için C kütüphaneleri mevcut	
+### Unix için C kütüphaneleri mevcut	
 		fctnl.h
 		sys/types.h
 	
-	### Veri tipleri
+### Veri tipleri
 		off_t
 		
-	### Sistem çağrıları
+### Sistem çağrıları
 		write();
 		creat();
 		open();
