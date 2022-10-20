@@ -39,10 +39,31 @@
 	-Gezgin robotlar
 	-Sayısal kontrol makinaları
 	
-## Manipülator kavramı	
-	-Manipüle eden
+## Manipülatör kavramı	
+	-Manipüle eden, değiştiren, etkileyen
 	-Bir cismi yada belirli bir işi,
 	-hedefi,
 	-Uzayda istenen bir duruma konum getiren yapı
+
+## Manipülatörlerin sınıflandırılması
+	-Döner(Revolute)
+	-Prizmatik
+	-Kartezyen(Cartesian)
+	-Silindirik(Silindirik)
+	-Küresel(Spherical)
+	-Eklemli(Articulated)
+	
+## Sensör
+	Dış dünya ile ilgili istenene türde veri elde edilmesini sağlar
+	-Yönlenme
+	-Engel
+	-Isı
+	Kızıl Ötesi
+	
+	
+	
+	
+	
+	
 	
 
