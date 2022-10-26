@@ -126,14 +126,59 @@ Donanım -> İşletim sistemleri -> Uygulama programları -> Kullanıcıları
 		
 ## Processler ile ilgili sistem cağrıları
 |Unix|Windows|
-|-----|----|
+|-----|-----|
 |fork();||
 |waitpid();||
 |exit(status);||
 |execvev();||
 |kill();||
+|exec()||
 	
 	fork() unix sistemlerde yeni bir süreç oluşturur
 	asıl sürecin birebir kopyasını oluşturur
 	kopyalama işleminden sonra ana süreç ve çocuk süreç birbirinden ayrılır
 	kullandıkları bilgiler kendine özgün olur
+
+# Week 4
+
+## Threads (İplikler)
+
+	Kaynak gruplandırma ve yürütme işlemleri yapar.
+	İş parçacıklarıdır.
+	Threatleri processler yönetir.
+	Kendi süreç bilgilerini saklarlar
+	Süreç var olduğu sürece threatler varlar.
+	Kendi veri bölgeleri yok.
+	Her threat in yerel değişkeni bulunur
+	Process içerisinde bağımsız yapılardır.
+	Threathleri farklı kaynakalra yönlendirebliriz
+	Adres alanını açık dosyaları ve diğer kaynakları açık oalarak paylaşır
+	Kontrolü anlamsızdır.
+	
+	
+NOT : Multi-tasking gibi Multi-Threading işletim sistemlerinin yeteneklerindendir.
+
+### Multithreading Model
+
+	Çoktan bire model
+	-----------------
+	Birden bire model
+	-----------------
+	Çoktan çoğa model
+	
+NOT: Windows işletim sistemi birden bire modeli uygular.
+
+	NOT: 
+	UNIX LİBRARY POSIX PTHREATHS
+	WİNDOWS WİN32
+	JAVA
+
+### PThread kütüphanesi 
+
+	Posix standartları ailesine ait bir kütüphane
+	Süreç yönetimi ve süreç senkronizasyonu ile ilgili fonksiyonları içerir
+	
+	Pthread.create()
+	
+	
+	
