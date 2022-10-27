@@ -60,6 +60,39 @@
 	-Isı
 	Kızıl Ötesi
 	
+# Week 2
+
+## Rijit Cisimlerin Düzlemsel Kinetiği
+
+	Kütle Kuvvet İvme Bağıntıları
+	Bir kuvveti bir yere uyguladığınızda kütle merkezine göre uygulamış oluruz
+	Sisteme farklı yönlerden inceleyip faklı yönlerden kuvvetleri inceleriz
+	Tanecikli yapıda toplam işlemi ile Sürekli yapıda ise integral ile işlem yapılır
+	Açısal Momentum - Tork
+	
+    1 - Kinematik 
+	
+	+Öncelikle ne tip bir hareket olduğunu tanımlayacağız. 
+
+	2 - Diyagramların çizilmesi
+
+	+SCD ve kinetik diyagram oluşturulup  uygun eksen takımı seçilmelidir.
+	
+	3 - Hareket denklemlerinin çözlümesi
+	
+Not : Atalet yarıçapı : Bir cismin kendi belli sınırları içinde dönmesi ve tekrar etmesini sağlayan yarıçaptır.
+
+### Öteleme
+	
+	-Doğrusal Öteleme (Rectilinear Translation)
+	-Eğrisel Öteleme (Curvilinear Translation)
+	
+## Konum ve Oryantasyon
+
+	-Koordinat sistemleri, noktalar ve cisimler, konum ve oryantasyon
+	-Dönüşüm denklemlerinin oluşturulması
+	Rotasyon, çeviri, homojen koordinatlar, dönüşüm matrisleri, Koordinaten
+	3D dönüşümler ve Euler açısı
 	
 	
 	
