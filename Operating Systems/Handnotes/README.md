@@ -211,7 +211,7 @@ NOT : İşlem veya threath(işlemcik)ler bir kaynağa erişmeye çalıştıklar�
 
 	Kısa süreli zamanlayıcı tarafından seçilen işleme işlemçinin pozisyonunu veren fonksiyonua dağıtıcı, dispatcher denir
 	İş sıralama yöntemi dengeli olmalıdır (Adaletli)
-	Yanıt süresi, çıktı ve işlemci verimliliğine göre sistem hefdeflerini karşılamyacak şekilde atamaktadır.
+	Yanıt süresi, çıktı ve işlemci verimliliğine göre sistem hedeflerini karşılamyacak şekilde atamaktadır.
 	
 	JOB SCHEDULER TYPES
 	+ Kısa zamanlı çizelgeleme (cpu zamanlayıcısı olarak tanımlanır, uzun vadeli zamanlayıcıdan daha hızlıdır)
@@ -227,6 +227,13 @@ NOT : İşlem veya threath(işlemcik)ler bir kaynağa erişmeye çalıştıklar�
 	+ Çok Kuyruklu Planlama Algoritması
 	+ Öncelikli Planlama Algoritması
 	+ RR (ROUND ROBİN) (Döngülü planlama Algoritması)
+	
+## Süreçler Arası İletişim
+
+	Kaynak paylaşımı (dosya, i-o aygıtı)
+	Karşılıklı haberleşme
+	Senkranizasyon
+	
 	
 	
 	
