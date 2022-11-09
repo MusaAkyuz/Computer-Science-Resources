@@ -180,5 +180,55 @@ NOT: Windows işletim sistemi birden bire modeli uygular.
 	
 	Pthread.create()
 	
+# Week 5
+
+## Görev Çizelgeleme (CPU planlaması)
+
+	Tek çekirdekli bir işlemci aynı anda tek bir işlemi yapabilir.
+	Birden çok işlemi aynı yapabilmesi için işler zamana yayar
+	Bir işlemin tamamlanmasını beklemeden bir kesme işlemi yapılır ve diğer işlemler çalışır
+	Görev çizelgeleme algoritmaları sayesinde bu süreç yürütülür
+	Çok hızlı çalışıyor olması gerekiyor
 	
+	Aktüf olacağı zamanlar : 
+	Çalışır durumundan bekleme durumuna
+	Bekleme durumundan hazır duruma geçtiğinde
+	Bir işlem sonlandığında
+	
+NOT : İşlem veya threath(işlemcik)ler bir kaynağa erişmeye çalıştıklarında erişim kontrolünün yapılmasının senkronizasyonu çok önemlidir
+
+	
+### Önleyici olmayan (Nonpreemptive)
+
+	Bir süreç seçer ve bitmesini bekleyene kadar çalışmasına izin verir
+
+### Önleyici (preemptive)
+
+	Bir süreç seçer ve en fazla sabit bir süre boyunca çalışmasına izin verir.
+	Zaman bitince işleme ara verir
+	
+### İşlemci çizelgeleme türleri
+
+	Kısa süreli zamanlayıcı tarafından seçilen işleme işlemçinin pozisyonunu veren fonksiyonua dağıtıcı, dispatcher denir
+	İş sıralama yöntemi dengeli olmalıdır (Adaletli)
+	Yanıt süresi, çıktı ve işlemci verimliliğine göre sistem hefdeflerini karşılamyacak şekilde atamaktadır.
+	
+	JOB SCHEDULER TYPES
+	+ Kısa zamanlı çizelgeleme (cpu zamanlayıcısı olarak tanımlanır, uzun vadeli zamanlayıcıdan daha hızlıdır)
+	+ Orta zamanlı çizelgeleme (işlemleri bellekten kaldırır, değişen processleri yönetmekten sorumludur)
+	+ Uzun zamanlı çizelgeleme (bütün kontrol işlem komutları arasında karar verir)
+	
+### Planlama Algoritmaları
+
+	+ FCFS (FIRST COME FIRST SERVED) (ilk gelen ilk servis edilir)
+	+ SJF veya SRTF (SHORTEST JOB FIRST) (en kısa çalışan ilk servis edilir) (SHORTEST REMAİNING TİME FIRST)
+		- Kesilmesiz SJF
+		- Kesilmeli SJF
+	+ Çok Kuyruklu Planlama Algoritması
+	+ Öncelikli Planlama Algoritması
+	+ RR (ROUND ROBİN) (Döngülü planlama Algoritması)
+	
+	
+	
+
 	
