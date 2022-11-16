@@ -265,6 +265,12 @@ Not: İKİLİ SEMAFORLARA MUTEX DENİR
 ### Açlık Problemleri
 
 ### Ölümcül Kilitlenme Problemi
+
+### Filozofları Doyurma Problemi
+
+	Sınırlı kaynakların bri grup sürece kilitlenmeden ve açlıktan arındırılmış şekilde
+	paylaştırılmasını içerir.
+	
 	
 	
 	
