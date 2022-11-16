@@ -234,6 +234,38 @@ NOT : İşlem veya threath(işlemcik)ler bir kaynağa erişmeye çalıştıklar�
 	Karşılıklı haberleşme
 	Senkranizasyon
 	
+# Week 6
+
+## Thread lerin problemleri
+
+### Race Condition (Yarış Durumu)
+	
+	Hangi threat in hangi sırayla geleceğini ve hangisinin önce çalışacağını bilemiyıruz
+	Bu nedenle global bir değişken üzerinde değişiklik yaparlarsa ortalık karışır.
+	Örneğin arttırma ve azaltma thread leri olsun
+	İkisi de x = 10 değişkeni üzerinde arttırma azaltma yaparlarsa daha birinin çalışması bitmeden yani arttırma
+	işlemini yapamadan diğeri azaltma işlemini yapar 10 -> 11 -> 10 olması gereken yerde 10 -> 11 -> 9 olur
+	
+	Önlemek için bir thread geldiğinde diğer threadi bekletecek sistem yapılmalı
+	Bunu mutex ile yapabiliriz
+	Kilit mekanizması oluşturulur.
+	
+Not: İKİLİ SEMAFORLARA MUTEX DENİR
+
+### Kritik Bölge Problemi
+
+### Üretici Tüketici Problemleri
+
+	Yine bir yarış koşulu problemidir. Aynı zamanda kritik bölge probleminidir.
+	Mutex ile bu problemi çözemeyiz
+	Bunun için semafor kullanacağız
+	Yoğun bekleme gerektirmeyen süreç sayısından bağımsız bir yöntemdir
+	Temel olarak down ve up olarak iki metodu bulunmaktadır
+
+### Açlık Problemleri
+
+### Ölümcül Kilitlenme Problemi
+	
 	
 	
 	
