@@ -94,8 +94,18 @@ Not : Atalet yarıçapı : Bir cismin kendi belli sınırları içinde dönmesi 
 	Rotasyon, çeviri, homojen koordinatlar, dönüşüm matrisleri, Koordinaten
 	3D dönüşümler ve Euler açısı
 	
-	
-	
+# Week 3
+
+Not: Inverse Kinematiks
+
+## Eklem: Oryantasyon
+## Açısal Fark
+## Yörünge ve Yol
+## Yörünge ve Durumnan
+## Kinematik Yasa: Anlık Kutup Etrafında Dairesel Dönüş
+## Diferansiyel Tahrik
+## Mecanum Sürücü
+## Mecanun Tahriki
 	
 	
 	
