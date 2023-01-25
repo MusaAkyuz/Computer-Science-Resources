@@ -1,0 +1,5 @@
+Projeyi yaparken Matlab kullanmadım. Weka veri madenciliği programını kullandım.
+Weka içerisindeki yapay sinir ağı algoritmaları sayesinde veriyi eğittim.
+Weka kullanmak için arff formatında veri seti gerekiyor. Veri setini hazırlamak için
+python kodu (ArffCreator) kullandım. Veri seti(Digit Dataset) ve düzenlenmiş veri seti (ımageMixed)
+klasörlerinde. 
